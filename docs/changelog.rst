@@ -4,7 +4,27 @@ Changelog
 X.Y (unreleased)
 ----------------
 
+- **BACKWARD-INCOMPATIBLE** Dropped support Django < 4.2.
+
+- Confirmed support for Django 4.2 and 5.0 (no code changes were required).
+
+6.0 (2023-10-27)
+----------------
+
+- **BACKWARD-INCOMPATIBLE** Dropped support for Python 3.7.
+
+- Confirmed support for Python 3.12.
+
+5.2 (2023-01-12)
+----------------
+
+- Fixed erroneous empty pattern matching when ``PARENT_HOST`` is defined.
+
 - Confirmed support for Django 4.1 (no code changes were required).
+
+- Confirmed support for Python 3.11 (no code changes were required).
+
+- **BACKWARD-INCOMPATIBLE** Dropped support for Python 3.6.
 
 5.1 (2022-01-15)
 ----------------
